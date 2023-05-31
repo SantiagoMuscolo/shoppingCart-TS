@@ -1,0 +1,52 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.Container h2{
+    margin-bottom: 50px;
+}
+
+.Item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    border: 1px solid grey;
+    width: 1200px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Item img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.remove{
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(215, 40, 40);
+    transition: ease-out 1s;
+}
+
+.remove:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in 1s;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}

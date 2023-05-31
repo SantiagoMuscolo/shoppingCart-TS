@@ -1,0 +1,6 @@
+.itemList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
